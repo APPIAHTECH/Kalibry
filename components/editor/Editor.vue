@@ -94,6 +94,7 @@
         <el-submenu index="10-4">
           <template slot="title">Inteligencia Artificial</template>
           <el-menu-item index="10-4-1">Escritura por voz</el-menu-item>
+          <el-menu-item index="10-4-1">Leer documento</el-menu-item>
           <el-menu-item index="10-4-2">Editorial</el-menu-item>
           <el-menu-item index="10-4-3">Sugerencia del bot</el-menu-item>
         </el-submenu>
