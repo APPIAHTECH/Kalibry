@@ -28,9 +28,9 @@
         <el-menu-item index="3-1"><i class="el-icon-back"></i>Deshacer</el-menu-item>
         <el-menu-item index="3-2"><i class="el-icon-right"></i>Rehacer</el-menu-item>
         <el-menu-item index="3-3"><i class="el-icon-scissors"></i>Cortar</el-menu-item>
-        <el-menu-item index="4-3">Copiar</el-menu-item>
-        <el-menu-item index="4-3">Pegar</el-menu-item>
-        <el-menu-item index="4-3">Eliminar</el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-copy-document"></i>Copiar</el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-document"></i>Pegar</el-menu-item>
+        <el-menu-item index="4-3"><i class="el-icon-delete"></i>Eliminar</el-menu-item>
         <el-menu-item index="4-3">Seleccionar todo</el-menu-item>
         <el-menu-item index="4-3">Buscar y sustituir</el-menu-item>
 
@@ -39,18 +39,11 @@
 
       <el-submenu index="4">
         <template slot="title">Ver</template>
-        <el-menu-item index="4-1">item one</el-menu-item>
-        <el-menu-item index="4-2">item two</el-menu-item>
-        <el-menu-item index="4-3">item three</el-menu-item>
-        <el-submenu index="4-4">
-          <template slot="title">item four</template>
-          <el-menu-item index="4-4-1">item one</el-menu-item>
-          <el-menu-item index="4-4-2">item two</el-menu-item>
-          <el-menu-item index="4-4-3">item three</el-menu-item>
-        </el-submenu>
+        <el-menu-item index="4-1"><i class="el-icon-view"></i>Visualización</el-menu-item>
+        <el-menu-item index="4-2"><i class="el-icon-edit"></i>Editar</el-menu-item>
       </el-submenu>
 
-
+<!--
       <el-submenu index="5">
         <template slot="title">Insertar</template>
         <el-menu-item index="5-1">item one</el-menu-item>
@@ -78,20 +71,6 @@
         </el-submenu>
       </el-submenu>
 
-
-      <el-submenu index="7">
-        <template slot="title">Estilos</template>
-        <el-menu-item index="7-1">item one</el-menu-item>
-        <el-menu-item index="7-2">item two</el-menu-item>
-        <el-menu-item index="7-3">item three</el-menu-item>
-        <el-submenu index="7-4">
-          <template slot="title">item four</template>
-          <el-menu-item index="7-4-1">item one</el-menu-item>
-          <el-menu-item index="7-4-2">item two</el-menu-item>
-          <el-menu-item index="7-4-3">item three</el-menu-item>
-        </el-submenu>
-      </el-submenu>
-
       <el-submenu index="8">
         <template slot="title">Tabla</template>
         <el-menu-item index="8-1">item one</el-menu-item>
@@ -105,46 +84,28 @@
         </el-submenu>
       </el-submenu>
 
-
-      <el-submenu index="9">
-        <template slot="title">Formulario</template>
-        <el-menu-item index="9-1">item one</el-menu-item>
-        <el-menu-item index="9-2">item two</el-menu-item>
-        <el-menu-item index="9-3">item three</el-menu-item>
-        <el-submenu index="9-4">
-          <template slot="title">item four</template>
-          <el-menu-item index="9-4-1">item one</el-menu-item>
-          <el-menu-item index="9-4-2">item two</el-menu-item>
-          <el-menu-item index="9-4-3">item three</el-menu-item>
-        </el-submenu>
-      </el-submenu>
-
+-->
 
       <el-submenu index="10">
         <template slot="title">Herramientas</template>
-        <el-menu-item index="10-1">item one</el-menu-item>
-        <el-menu-item index="10-2">item two</el-menu-item>
-        <el-menu-item index="10-3">item three</el-menu-item>
+        <el-menu-item index="10-1">Corrector</el-menu-item>
+        <el-menu-item index="10-2">Traducir el documento</el-menu-item>
+        <el-menu-item index="10-3">Diccionario</el-menu-item>
         <el-submenu index="10-4">
-          <template slot="title">item four</template>
-          <el-menu-item index="10-4-1">item one</el-menu-item>
-          <el-menu-item index="10-4-2">item two</el-menu-item>
-          <el-menu-item index="10-4-3">item three</el-menu-item>
+          <template slot="title">Inteligencia Artificial</template>
+          <el-menu-item index="10-4-1">Escritura por voz</el-menu-item>
+          <el-menu-item index="10-4-2">Editorial</el-menu-item>
+          <el-menu-item index="10-4-3">Sugerencia del bot</el-menu-item>
         </el-submenu>
       </el-submenu>
 
 
       <el-submenu index="11">
         <template slot="title">Ayuda</template>
-        <el-menu-item index="11-1">item one</el-menu-item>
-        <el-menu-item index="11-2">item two</el-menu-item>
-        <el-menu-item index="11-3">item three</el-menu-item>
-        <el-submenu index="11-4">
-          <template slot="title">item four</template>
-          <el-menu-item index="11-4-1">item one</el-menu-item>
-          <el-menu-item index="11-4-2">item two</el-menu-item>
-          <el-menu-item index="11-4-3">item three</el-menu-item>
-        </el-submenu>
+        <el-menu-item index="11-2">Formación</el-menu-item>
+        <el-menu-item index="11-3">Documentacion</el-menu-item>
+        <el-menu-item index="11-4">Tecla rapida</el-menu-item>
+        <el-menu-item index="11-5">Informar un problema</el-menu-item>
       </el-submenu>
 
     </el-menu>
@@ -201,7 +162,6 @@
       <el-menu-item index="34"><i class="material-icons">format_indent_decrease</i></el-menu-item>
       <el-menu-item index="35"><i class="material-icons">format_indent_increase</i></el-menu-item>
 
-      <el-menu-item index="36"><i class="material-icons">create</i></el-menu-item>
       <el-menu-item index="37">
         <el-button type="primary" size="mini">Compartir</el-button>
       </el-menu-item>
@@ -210,7 +170,7 @@
 
   <div class="papper-container">
 
-    <div class="papper" contenteditable></div>
+    <div class="papper" contenteditable  style="overflow:hidden;"></div>
 
   </div>
 </el-container>
@@ -233,9 +193,9 @@
     word-spacing: 10px;
     word-break: break-all;
     font-size: 14pt;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(189,195,199,1);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(189,195,199,1);
-    box-shadow: 0px 0px 5px 1px rgba(189,195,199,1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(242,246,252,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(242,246,252,1);
+    box-shadow: 0px 0px 5px 0px rgba(242,246,252,1);
   }
 
   .papper-container{
