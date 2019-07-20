@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <Home></Home>
+    <Editor></Editor>
   </el-container>
 </template>
 
