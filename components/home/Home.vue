@@ -1,5 +1,5 @@
 <template>
-<el-container>
+<el-container class="home">
 
     <el-container>
         <el-header>
@@ -37,11 +37,174 @@
         </el-header>
 
         <el-main>
-            <el-carousel :interval="5000" arrow="always">
-                <el-carousel-item v-for="item in 4" :key="item">
-                    <h3>{{ item }}</h3>
-                </el-carousel-item>
-            </el-carousel>
+
+
+            <!-- TENDENCIA -->
+            <div class="secction">
+                <h2>Tendenia</h2>
+                <div class="book-list">
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Rock%20Your%20Au%20Pair%20Year%201.8.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>Au Pair</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Writer11.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>Rescue</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Grit7.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>Grift</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/2453_B.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>Bussines Plan</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Love6.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>Love</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="top">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51uLvJlKpNL._SX321_BO1,204,203,200_.jpg" class="image">
+                        </div>
+                        <div class="bot">
+                            <div id="name">
+                                <h3>The Hobbit</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAS VISTO-->
+            <div class="secction">
+                <h2>Más Visto</h2>
+                <div class="book-list">
+                    <div class="card-container-big">
+                        <div class="top-big">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Vegan3.jpg" class="image">
+                        </div>
+                        <div class="bot-big">
+                            <div id="name">
+                                <h3>Vegan 3</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container-big">
+                        <div class="top-big">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Improve-Your-Social-Skills_ebook.jpg" class="image">
+                        </div>
+                        <div class="bot-big">
+                            <div id="name">
+                                <h3>Improve Your Social Skills</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container-big">
+                        <div class="top-big">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/WifeandWar5.jpg" class="image">
+                        </div>
+                        <div class="bot-big">
+                            <div id="name">
+                                <h3>Wify and War 5</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container-big">
+                        <div class="top-big">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/onlinedating_frontHR.jpg" class="image">
+                        </div>
+                        <div class="bot-big">
+                            <div id="name">
+                                <h3>Online Dating</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-container-big">
+                        <div class="top-big">
+                            <img src="https://damonza.com/wp-content/uploads/portfolio/nonfiction/Kellys-Kitchen-Savvy_ebook.jpg" class="image">
+                        </div>
+                        <div class="bot-big">
+                            <div id="name">
+                                <h3>Kitcher Savvy</h3>
+                            </div>
+                            <div id="stats">
+                                <span class="stats-span">Stephen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </el-main>
 
     </el-container>
@@ -50,8 +213,103 @@
 </template>
 
 <style>
+
+.home{
+    background-color: #FAFAFA;
+}
+.book-list {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
 #search {
     width: 62%;
+}
+
+#name,
+#stats {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#name {
+    margin-top: 15px;
+}
+
+#name h3 {
+    font-stretch: normal;
+    font-weight: bold;
+    opacity: .8;
+    font-size: 12pt;
+}
+
+#stats {
+    margin-bottom: 20px;
+}
+
+.stats-span {
+    opacity: .6;
+}
+
+.card-container,
+.card-container-big {
+    width: 210px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px -6px rgba(236, 240, 241, 1);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.card-container-big {
+    width: 300px;
+    height: 300px;
+}
+
+.top,
+.bot,
+.bot-big,
+.top-big {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: white;
+}
+
+.bot,
+.bot-big {
+    height: 40%;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.bot-big {
+    height: 26%;
+}
+
+.top-big {
+    height: 75%;
+}
+
+.secction {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 5px;
+    flex-flow: column nowrap;
+    padding: 5%;
+    padding-bottom: 0;
+
+}
+
+.secction h2 {
+    opacity: .5;
+    margin-bottom: 30px;
+    letter-spacing: normal;
+    text-align: justify;
+    font-size: 130%;
 }
 
 .el-carousel__item h3 {
@@ -104,34 +362,12 @@
     min-height: 400px;
 }
 
-.time {
-    font-size: 13px;
-    color: #999;
-}
-
-.bottom {
-    margin-top: 13px;
-    line-height: 12px;
-}
-
-.button {
-    padding: 0;
-    float: right;
-}
-
-.image {
+.image,
+.slide-image {
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    display: block;
-}
-
-.clearfix:before,
-.clearfix:after {
-    display: table;
-    content: "";
-}
-
-.clearfix:after {
-    clear: both
+    object-fit: cover;
 }
 </style>
 
